@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>How Long Until My BAC Is Zero? Sober-Up Time Calculator | Drink Buddy</title>
+  <meta name="description" content="Your body clears roughly 0.015% BAC per hour — about one standard drink an hour. Use our free calculator to estimate how long until your BAC returns to zero, and why nothing speeds it up." />
+  <link rel="canonical" href="https://drinkbuddy.trendypublishing.com/how-long-until-bac-zero/" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="How Long Until My BAC Is Zero? Sober-Up Time Calculator" />
+  <meta property="og:description" content="Estimate how long until your blood alcohol content returns to 0.00 — and learn why coffee, cold showers and food don't speed it up." />
+  <meta property="og:url" content="https://drinkbuddy.trendypublishing.com/how-long-until-bac-zero/" />
+  <meta property="og:image" content="https://drinkbuddy.trendypublishing.com/og-image.png" />
+
+  <meta name="google-play-app" content="app-id=com.drinkbuddy.tracker" />
+  <link rel="alternate" href="android-app://com.drinkbuddy.tracker/https/drinkbuddy.trendypublishing.com/how-long-until-bac-zero/" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How Long Until My BAC Is Zero?",
+    "description": "How long it takes for blood alcohol content to return to zero, how alcohol is metabolised, and why nothing speeds it up.",
+    "author": { "@type": "Organization", "name": "Drink Buddy" },
+    "publisher": { "@type": "Organization", "name": "Drink Buddy" },
+    "mainEntityOfPage": "https://drinkbuddy.trendypublishing.com/how-long-until-bac-zero/"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How fast does BAC go down?",
+        "acceptedAnswer": { "@type": "Answer", "text": "On average, blood alcohol content falls by about 0.015% per hour — roughly one standard drink per hour. The rate varies between individuals (typically 0.010% to 0.025% per hour) and cannot be sped up." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does coffee, food or a cold shower sober you up faster?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. Your liver metabolises alcohol at a fixed rate. Coffee may make you feel more alert, but your BAC stays exactly the same. Only time lowers BAC." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I still be over 0.05 the morning after drinking?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. After a heavy night, your BAC can still be over 0.05 well into the next morning. If you stopped drinking at 1am with a BAC around 0.15, you may not reach zero until around 11am." }
+      },
+      {
+        "@type": "Question",
+        "name": "How accurate are BAC calculators?",
+        "acceptedAnswer": { "@type": "Answer", "text": "BAC calculators using the Widmark formula give an estimate only. Individual metabolism, food intake, medication and health conditions all affect your actual BAC. Never use an estimate to decide whether you are fit to drive." }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0f0f13; --surface: #1a1a24; --border: #2a2a38;
+      --accent: #7c5cfc; --accent-light: #a07dff;
+      --text: #f0f0f8; --muted: #9090a8; --green: #22c55e; --radius: 16px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.7; }
+    a { color: var(--accent-light); }
+    nav { display: flex; align-items: center; justify-content: space-between; padding: 20px 40px; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: rgba(15,15,19,0.9); backdrop-filter: blur(10px); z-index: 100; }
+    .nav-logo { font-weight: 700; font-size: 1.1rem; display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; }
+    .nav-logo span { font-size: 1.5rem; }
+    .nav-cta { background: var(--accent); color: #fff; padding: 10px 22px; border-radius: 50px; font-weight: 600; font-size: 0.9rem; text-decoration: none; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--accent-light); }
+    article { max-width: 720px; margin: 0 auto; padding: 56px 24px 40px; }
+    .breadcrumb { font-size: 0.85rem; color: var(--muted); margin-bottom: 24px; }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--text); }
+    h1 { font-size: clamp(1.8rem, 4.5vw, 2.6rem); font-weight: 800; line-height: 1.2; margin-bottom: 16px; }
+    .lead { font-size: 1.15rem; color: var(--muted); margin-bottom: 32px; }
+    h2 { font-size: 1.4rem; font-weight: 800; margin: 44px 0 14px; }
+    h3 { font-size: 1.05rem; font-weight: 700; margin: 28px 0 10px; }
+    p { margin-bottom: 16px; }
+    ul, ol { margin: 0 0 16px 24px; }
+    li { margin-bottom: 8px; }
+    .callout { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 8px; padding: 16px 20px; margin: 24px 0; font-size: 0.95rem; }
+    .callout.warn { border-left-color: #f59e0b; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0 28px; font-size: 0.95rem; }
+    th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--border); }
+    th { color: var(--accent-light); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .calc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; margin: 28px 0; }
+    .calc h2 { margin-top: 0; }
+    .calc label { display: block; font-size: 0.85rem; font-weight: 600; color: var(--muted); margin-bottom: 6px; }
+    .calc input[type="number"] { width: 100%; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; color: var(--text); font-size: 1.1rem; padding: 12px 14px; margin-bottom: 18px; }
+    .calc input:focus { outline: none; border-color: var(--accent); }
+    .calc-result { background: rgba(124,92,252,0.1); border: 1px solid rgba(124,92,252,0.35); border-radius: 8px; padding: 18px 20px; font-size: 1rem; }
+    .calc-result strong { color: var(--accent-light); font-size: 1.2rem; }
+    .calc-note { font-size: 0.8rem; color: var(--muted); margin-top: 14px; margin-bottom: 0; }
+    .cta-banner { background: linear-gradient(135deg, rgba(124,92,252,0.2), rgba(124,92,252,0.05)); border: 1px solid rgba(124,92,252,0.3); border-radius: var(--radius); padding: 48px 32px; text-align: center; margin: 24px auto 80px; max-width: 720px; }
+    .cta-banner h2 { margin-top: 0; }
+    .cta-banner p { color: var(--muted); margin-bottom: 28px; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 10px; background: var(--accent); color: #fff; padding: 14px 28px; border-radius: 50px; font-weight: 700; font-size: 1rem; text-decoration: none; transition: background 0.2s; }
+    .btn-primary:hover { background: var(--accent-light); }
+    .related { max-width: 720px; margin: 0 auto 60px; padding: 0 24px; }
+    .related h2 { font-size: 1.1rem; margin-bottom: 14px; }
+    .related a { display: block; padding: 10px 0; border-bottom: 1px solid var(--border); text-decoration: none; }
+    footer { border-top: 1px solid var(--border); padding: 32px 40px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; font-size: 0.85rem; color: var(--muted); }
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--text); }
+    @media (max-width: 600px) { nav { padding: 16px 20px; } footer { padding: 24px 20px; flex-direction: column; text-align: center; } }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a class="nav-logo" href="/"><span>🍺</span> Drink Buddy</a>
+    <a class="nav-cta" href="https://play.google.com/store/apps/details?id=com.drinkbuddy.tracker" rel="noopener">Download Free</a>
+  </nav>
+
+  <article>
+    <div class="breadcrumb"><a href="/">Home</a> › Guides › How long until my BAC is zero?</div>
+
+    <h1>How long until my BAC is zero?</h1>
+    <p class="lead">The short answer: your body clears roughly <strong>0.015% BAC per hour</strong> — about one standard drink an hour. Nothing speeds that up. Here's how to estimate your own sober-up time.</p>
+
+    <div class="calc">
+      <h2>Sober-up time calculator</h2>
+      <label for="bac-input">Your current (or estimated) BAC</label>
+      <input type="number" id="bac-input" step="0.01" min="0" max="0.5" placeholder="e.g. 0.08" inputmode="decimal" />
+      <div class="calc-result" id="bac-result">Enter a BAC above to see your estimated wait.</div>
+      <p class="calc-note">Estimate based on the average elimination rate of 0.015% BAC per hour. Individual rates vary from about 0.010% to 0.025%. This is not a fitness-to-drive test.</p>
+    </div>
+
+    <h2>How your body processes alcohol</h2>
+    <p>Your liver does about 90% of the work of breaking down alcohol, and it works at a fixed pace — roughly <strong>one standard drink (10 g of alcohol) per hour</strong>. That translates to your blood alcohol content falling by around 0.015% each hour, though the true rate varies between individuals depending on liver health, genetics, sex and body composition.</p>
+    <p>The crucial point: the liver has no fast-forward button. If you drink faster than one standard drink an hour, alcohol queues up in your bloodstream and your BAC rises. Once you stop drinking, the only thing that lowers it is time.</p>
+
+    <h2>Typical sober-up times</h2>
+    <table>
+      <thead>
+        <tr><th>Current BAC</th><th>Time until under 0.05</th><th>Time until 0.00</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>0.05</td><td>—</td><td>~3.5 hours</td></tr>
+        <tr><td>0.08</td><td>~2 hours</td><td>~5.5 hours</td></tr>
+        <tr><td>0.10</td><td>~3.5 hours</td><td>~7 hours</td></tr>
+        <tr><td>0.15</td><td>~7 hours</td><td>~10 hours</td></tr>
+        <tr><td>0.20</td><td>~10 hours</td><td>~13.5 hours</td></tr>
+      </tbody>
+    </table>
+    <p>These are averages. Your actual rate could be slower — which is why any estimate should be treated as a rough guide, never a green light.</p>
+
+    <div class="callout warn">
+      <strong>The morning-after trap.</strong> Stop drinking at 1am with a BAC around 0.15 and you may still be over 0.05 at 8am — and not reach zero until close to midday. "I slept, so I'm fine" is one of the most common ways Australians end up drink driving without meaning to.
+    </div>
+
+    <h2>Things that don't lower your BAC</h2>
+    <ul>
+      <li><strong>Coffee</strong> — caffeine makes you feel more alert. Your BAC doesn't move. An alert drunk person is still a drunk person.</li>
+      <li><strong>Cold showers</strong> — you'll be wide awake and exactly as intoxicated as before.</li>
+      <li><strong>Eating</strong> — food before or while drinking slows alcohol <em>absorption</em>, but once alcohol is in your blood, eating won't remove it faster.</li>
+      <li><strong>Vomiting</strong> — only removes alcohol still in your stomach; anything absorbed is staying for the duration.</li>
+      <li><strong>Exercise or sweating</strong> — only about 10% of alcohol leaves via breath, sweat and urine. Sweating it out is a myth.</li>
+    </ul>
+
+    <h2>How the estimate works: the Widmark formula</h2>
+    <p>Most BAC calculators — including the one built into the Drink Buddy app — use the <strong>Widmark formula</strong>, the same method used in medical research and forensic contexts. It estimates peak BAC from the grams of alcohol consumed, your body weight and a distribution factor based on sex, then subtracts the elimination rate multiplied by hours elapsed.</p>
+    <p>Time to zero is then simply your current BAC divided by your elimination rate. At the average rate, a BAC of 0.09 takes about six hours to clear.</p>
+
+    <div class="callout">
+      <strong>A note on driving:</strong> in Australia the legal limit for full-licence drivers is under 0.05, and zero for learner and probationary drivers. No calculator or app can tell you that you're safe to drive — impairment starts well below 0.05, and estimates carry real uncertainty. If you've been drinking, don't drive.
+    </div>
+
+    <h2>Frequently asked questions</h2>
+    <h3>How fast does BAC go down?</h3>
+    <p>About 0.015% per hour on average — roughly one standard drink per hour. Individual rates range from around 0.010% to 0.025% per hour.</p>
+    <h3>Does coffee, food or a cold shower sober you up faster?</h3>
+    <p>No. Your liver metabolises alcohol at a fixed rate. Only time lowers BAC.</p>
+    <h3>Can I still be over 0.05 the morning after?</h3>
+    <p>Absolutely. After a big night, plan on not driving the next morning at all.</p>
+    <h3>How accurate are BAC calculators?</h3>
+    <p>They're estimates. Metabolism, food, medication and health conditions all shift your actual BAC. Use them for awareness, never to decide whether you can drive.</p>
+  </article>
+
+  <div class="cta-banner">
+    <h2>Track your BAC in real time, all night</h2>
+    <p>Drink Buddy logs your drinks and shows a live sobriety timer — see exactly when you're estimated to hit 0.05 and 0.00. Free on Google Play, no account required.</p>
+    <a class="btn-primary" href="https://play.google.com/store/apps/details?id=com.drinkbuddy.tracker" rel="noopener">▶ Get Drink Buddy Free</a>
+  </div>
+
+  <div class="related">
+    <h2>Related guides</h2>
+    <a href="/standard-drinks-calculator-australia/">Standard drinks calculator (Australia) — work out exactly what you're drinking</a>
+    <a href="/dry-july-drink-tracking/">How to track your drinks during Dry July</a>
+  </div>
+
+  <footer>
+    <div>🍺 <strong>Drink Buddy</strong> — Alcohol Tracker &amp; BAC Calculator</div>
+    <div style="display:flex; gap: 24px;">
+      <a href="/">Home</a>
+      <a href="https://play.google.com/store/apps/details?id=com.drinkbuddy.tracker">Google Play</a>
+      <a href="mailto:support@trendypublishing.com">Support</a>
+    </div>
+    <div>Drink Buddy is for adults 18+. Please drink responsibly.</div>
+  </footer>
+
+  <script>
+    (function () {
+      var input = document.getElementById('bac-input');
+      var result = document.getElementById('bac-result');
+      var RATE = 0.015;
+      input.addEventListener('input', function () {
+        var bac = parseFloat(input.value);
+        if (isNaN(bac) || bac <= 0) {
+          result.innerHTML = 'Enter a BAC above to see your estimated wait.';
+          return;
+        }
+        if (bac > 0.5) {
+          result.innerHTML = 'A BAC above 0.5 is a medical emergency — call 000.';
+          return;
+        }
+        var hoursToZero = bac / RATE;
+        var hoursTo05 = Math.max(0, (bac - 0.05) / RATE);
+        function fmt(h) {
+          var whole = Math.floor(h);
+          var mins = Math.round((h - whole) * 60);
+          if (mins === 60) { whole += 1; mins = 0; }
+          return whole + (whole === 1 ? ' hr ' : ' hrs ') + (mins > 0 ? mins + ' min' : '');
+        }
+        var under05 = bac > 0.05
+          ? 'Under 0.05 in about <strong>' + fmt(hoursTo05) + '</strong> · '
+          : '';
+        result.innerHTML = under05 + 'Back to 0.00 in about <strong>' + fmt(hoursToZero) + '</strong>. Remember: this is an average-rate estimate, not a guarantee.';
+      });
+    })();
+  </script>
+
+</body>
+</html>

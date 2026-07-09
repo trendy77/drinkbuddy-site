@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Standard Drinks Calculator Australia — Free & Instant | Drink Buddy</title>
+  <meta name="description" content="Free Australian standard drinks calculator. Enter any drink's size and alcohol percentage to see exactly how many standard drinks it contains, plus a chart of common Aussie drinks." />
+  <link rel="canonical" href="https://drinkbuddy.trendypublishing.com/standard-drinks-calculator-australia/" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Standard Drinks Calculator Australia — Free & Instant" />
+  <meta property="og:description" content="Work out how many Australian standard drinks are in any beer, wine, spirit or cocktail. Instant, free, no sign-up." />
+  <meta property="og:url" content="https://drinkbuddy.trendypublishing.com/standard-drinks-calculator-australia/" />
+  <meta property="og:image" content="https://drinkbuddy.trendypublishing.com/og-image.png" />
+
+  <meta name="google-play-app" content="app-id=com.drinkbuddy.tracker" />
+  <link rel="alternate" href="android-app://com.drinkbuddy.tracker/https/drinkbuddy.trendypublishing.com/standard-drinks-calculator-australia/" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Standard Drinks Calculator Australia",
+    "description": "Free calculator that converts any drink's volume and alcohol percentage into Australian standard drinks.",
+    "applicationCategory": "HealthApplication",
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "AUD" },
+    "url": "https://drinkbuddy.trendypublishing.com/standard-drinks-calculator-australia/"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a standard drink in Australia?",
+        "acceptedAnswer": { "@type": "Answer", "text": "An Australian standard drink contains 10 grams of pure alcohol (about 12.5 mL). It's the unit used in Australian health guidelines and on all packaged alcohol labels." }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I calculate standard drinks?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Multiply the volume in litres by the alcohol percentage by 0.789 (the density of alcohol). For example: a 375 mL can of 4.8% beer is 0.375 × 4.8 × 0.789 = 1.4 standard drinks." }
+      },
+      {
+        "@type": "Question",
+        "name": "How many standard drinks can I have per week?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Australian (NHMRC) guidelines recommend healthy adults have no more than 10 standard drinks per week and no more than 4 on any one day to reduce alcohol-related health risks." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is a glass of wine one standard drink?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Usually not. One standard drink is only 100 mL of 13% wine. A typical restaurant pour of 150 mL is about 1.5 standard drinks, and many home pours are closer to 2." }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0f0f13; --surface: #1a1a24; --border: #2a2a38;
+      --accent: #7c5cfc; --accent-light: #a07dff;
+      --text: #f0f0f8; --muted: #9090a8; --green: #22c55e; --radius: 16px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.7; }
+    a { color: var(--accent-light); }
+    nav { display: flex; align-items: center; justify-content: space-between; padding: 20px 40px; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: rgba(15,15,19,0.9); backdrop-filter: blur(10px); z-index: 100; }
+    .nav-logo { font-weight: 700; font-size: 1.1rem; display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; }
+    .nav-logo span { font-size: 1.5rem; }
+    .nav-cta { background: var(--accent); color: #fff; padding: 10px 22px; border-radius: 50px; font-weight: 600; font-size: 0.9rem; text-decoration: none; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--accent-light); }
+    article { max-width: 720px; margin: 0 auto; padding: 56px 24px 40px; }
+    .breadcrumb { font-size: 0.85rem; color: var(--muted); margin-bottom: 24px; }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--text); }
+    h1 { font-size: clamp(1.8rem, 4.5vw, 2.6rem); font-weight: 800; line-height: 1.2; margin-bottom: 16px; }
+    .lead { font-size: 1.15rem; color: var(--muted); margin-bottom: 32px; }
+    h2 { font-size: 1.4rem; font-weight: 800; margin: 44px 0 14px; }
+    h3 { font-size: 1.05rem; font-weight: 700; margin: 28px 0 10px; }
+    p { margin-bottom: 16px; }
+    ul { margin: 0 0 16px 24px; }
+    li { margin-bottom: 8px; }
+    .callout { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 8px; padding: 16px 20px; margin: 24px 0; font-size: 0.95rem; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0 28px; font-size: 0.95rem; }
+    th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--border); }
+    th { color: var(--accent-light); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .calc { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; margin: 28px 0; }
+    .calc h2 { margin-top: 0; }
+    .calc label { display: block; font-size: 0.85rem; font-weight: 600; color: var(--muted); margin-bottom: 6px; }
+    .calc input[type="number"] { width: 100%; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; color: var(--text); font-size: 1.1rem; padding: 12px 14px; margin-bottom: 18px; }
+    .calc input:focus { outline: none; border-color: var(--accent); }
+    .presets { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+    .preset { background: var(--bg); border: 1px solid var(--border); border-radius: 50px; color: var(--text); font-size: 0.82rem; padding: 8px 14px; cursor: pointer; transition: border-color 0.2s; }
+    .preset:hover { border-color: var(--accent); }
+    .calc-result { background: rgba(124,92,252,0.1); border: 1px solid rgba(124,92,252,0.35); border-radius: 8px; padding: 18px 20px; font-size: 1rem; }
+    .calc-result strong { color: var(--accent-light); font-size: 1.3rem; }
+    .calc-note { font-size: 0.8rem; color: var(--muted); margin-top: 14px; margin-bottom: 0; }
+    .cta-banner { background: linear-gradient(135deg, rgba(124,92,252,0.2), rgba(124,92,252,0.05)); border: 1px solid rgba(124,92,252,0.3); border-radius: var(--radius); padding: 48px 32px; text-align: center; margin: 24px auto 80px; max-width: 720px; }
+    .cta-banner h2 { margin-top: 0; }
+    .cta-banner p { color: var(--muted); margin-bottom: 28px; }
+    .btn-primary { display: inline-flex; align-items: center; gap: 10px; background: var(--accent); color: #fff; padding: 14px 28px; border-radius: 50px; font-weight: 700; font-size: 1rem; text-decoration: none; transition: background 0.2s; }
+    .btn-primary:hover { background: var(--accent-light); }
+    .related { max-width: 720px; margin: 0 auto 60px; padding: 0 24px; }
+    .related h2 { font-size: 1.1rem; margin-bottom: 14px; }
+    .related a { display: block; padding: 10px 0; border-bottom: 1px solid var(--border); text-decoration: none; }
+    footer { border-top: 1px solid var(--border); padding: 32px 40px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; font-size: 0.85rem; color: var(--muted); }
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--text); }
+    @media (max-width: 600px) { nav { padding: 16px 20px; } footer { padding: 24px 20px; flex-direction: column; text-align: center; } }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a class="nav-logo" href="/"><span>🍺</span> Drink Buddy</a>
+    <a class="nav-cta" href="https://play.google.com/store/apps/details?id=com.drinkbuddy.tracker" rel="noopener">Download Free</a>
+  </nav>
+
+  <article>
+    <div class="breadcrumb"><a href="/">Home</a> › Guides › Standard drinks calculator (Australia)</div>
+
+    <h1>Standard drinks calculator (Australia)</h1>
+    <p class="lead">One Australian standard drink = <strong>10 grams of pure alcohol</strong>. Enter any drink below to see exactly how many standard drinks you're really holding.</p>
+
+    <div class="calc">
+      <h2>Calculate any drink</h2>
+      <div class="presets">
+        <button class="preset" data-vol="285" data-abv="4.8">Pot of beer</button>
+        <button class="preset" data-vol="425" data-abv="4.8">Schooner</button>
+        <button class="preset" data-vol="375" data-abv="4.8">Can / stubby</button>
+        <button class="preset" data-vol="375" data-abv="3.5">Mid-strength can</button>
+        <button class="preset" data-vol="150" data-abv="13">Glass of wine</button>
+        <button class="preset" data-vol="150" data-abv="12">Sparkling</button>
+        <button class="preset" data-vol="30" data-abv="40">Shot (30 mL)</button>
+        <button class="preset" data-vol="375" data-abv="5">Premix / RTD</button>
+      </div>
+      <label for="vol-input">Drink size (mL)</label>
+      <input type="number" id="vol-input" min="1" max="5000" placeholder="e.g. 375" inputmode="numeric" />
+      <label for="abv-input">Alcohol strength (% ABV)</label>
+      <input type="number" id="abv-input" step="0.1" min="0" max="100" placeholder="e.g. 4.8" inputmode="decimal" />
+      <div class="calc-result" id="sd-result">Pick a preset or enter a size and strength.</div>
+      <p class="calc-note">Formula: volume (L) × ABV% × 0.789 = grams of alcohol ÷ 10 = standard drinks.</p>
+    </div>
+
+    <h2>What is a standard drink?</h2>
+    <p>In Australia, a standard drink is any drink containing <strong>10 grams of pure alcohol</strong> (about 12.5 mL). It's the unit used across Australian health guidelines, and by law every bottle, can and cask of packaged alcohol sold in Australia must state how many standard drinks it contains.</p>
+    <p>The catch: almost nothing you're actually served is exactly one standard drink. A schooner is 1.6. A typical restaurant pour of wine is 1.5. A generous gin and tonic at home can be 2 or more. This is why most people underestimate how much they drink.</p>
+
+    <h2>Common Australian drinks in standard drinks</h2>
+    <table>
+      <thead>
+        <tr><th>Drink</th><th>Size</th><th>Strength</th><th>Standard drinks</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Pot / middy of full-strength beer</td><td>285 mL</td><td>4.8%</td><td>1.1</td></tr>
+        <tr><td>Schooner of full-strength beer</td><td>425 mL</td><td>4.8%</td><td>1.6</td></tr>
+        <tr><td>Can or stubby of full-strength beer</td><td>375 mL</td><td>4.8%</td><td>1.4</td></tr>
+        <tr><td>Can of mid-strength beer</td><td>375 mL</td><td>3.5%</td><td>1.0</td></tr>
+        <tr><td>Restaurant glass of wine</td><td>150 mL</td><td>13%</td><td>1.5</td></tr>
+        <tr><td>Small glass of wine</td><td>100 mL</td><td>13%</td><td>1.0</td></tr>
+        <tr><td>Glass of sparkling</td><td>150 mL</td><td>12%</td><td>1.4</td></tr>
+        <tr><td>Nip of spirits</td><td>30 mL</td><td>40%</td><td>0.95</td></tr>
+        <tr><td>Premix can / RTD</td><td>375 mL</td><td>5%</td><td>1.5</td></tr>
+        <tr><td>Bottle of wine</td><td>750 mL</td><td>13%</td><td>7.7</td></tr>
+      </tbody>
+    </table>
+
+    <div class="callout">
+      <strong>The Australian guidelines:</strong> to reduce the risk of harm from alcohol, the NHMRC recommends healthy adults have <strong>no more than 10 standard drinks a week</strong> and <strong>no more than 4 on any one day</strong>. The less you drink, the lower your risk.
+    </div>
+
+    <h2>Why counting standard drinks is hard in practice</h2>
+    <p>Labels help with packaged drinks, but poured drinks are where counts fall apart. Wine glasses vary from 100 mL to 250 mL pours. Cocktails can contain anywhere from one to four standard drinks. Craft beers range from 3.5% to 9% ABV — a pint of 8% IPA is nearly 3 standard drinks, double a pint of mid-strength.</p>
+    <p>The practical fix is to log drinks as you go rather than reconstructing the night afterwards. That's exactly what the <a href="/">Drink Buddy app</a> is built for — tap the drink you're having and it tallies your standard drinks and estimated BAC in real time, and warns you as you approach your daily or weekly limit.</p>
+
+    <h2>Frequently asked questions</h2>
+    <h3>What is a standard drink in Australia?</h3>
+    <p>A drink containing 10 grams of pure alcohol. It's the basis of Australian health guidelines and appears on every packaged alcohol label.</p>
+    <h3>How do I calculate standard drinks manually?</h3>
+    <p>Volume in litres × ABV% × 0.789. A 375 mL can at 4.8% is 0.375 × 4.8 × 0.789 ≈ 1.4 standard drinks.</p>
+    <h3>How many standard drinks per week is safe?</h3>
+    <p>Australian guidelines recommend no more than 10 per week and no more than 4 on any one day for healthy adults. No level of drinking is completely risk-free.</p>
+    <h3>Is a glass of wine one standard drink?</h3>
+    <p>Rarely. Only a 100 mL pour of 13% wine equals one standard drink — most pours are 1.5 or more.</p>
+  </article>
+
+  <div class="cta-banner">
+    <h2>Stop counting in your head</h2>
+    <p>Drink Buddy tallies your standard drinks automatically as you log them, tracks your weekly total against Australian guidelines, and estimates your BAC in real time. Free on Google Play.</p>
+    <a class="btn-primary" href="https://play.google.com/store/apps/details?id=com.drinkbuddy.tracker" rel="noopener">▶ Get Drink Buddy Free</a>
+  </div>
+
+  <div class="related">
+    <h2>Related guides</h2>
+    <a href="/how-long-until-bac-zero/">How long until my BAC is zero? Sober-up time explained</a>
+    <a href="/dry-july-drink-tracking/">How to track your drinks during Dry July</a>
+  </div>
+
+  <footer>
+    <div>🍺 <strong>Drink Buddy</strong> — Alcohol Tracker &amp; BAC Calculator</div>
+    <div style="display:flex; gap: 24px;">
+      <a href="/">Home</a>
+      <a href="https://play.google.com/store/apps/details?id=com.drinkbuddy.tracker">Google Play</a>
+      <a href="mailto:support@trendypublishing.com">Support</a>
+    </div>
+    <div>Drink Buddy is for adults 18+. Please drink responsibly.</div>
+  </footer>
+
+  <script>
+    (function () {
+      var vol = document.getElementById('vol-input');
+      var abv = document.getElementById('abv-input');
+      var result = document.getElementById('sd-result');
+
+      function calc() {
+        var v = parseFloat(vol.value);
+        var a = parseFloat(abv.value);
+        if (isNaN(v) || isNaN(a) || v <= 0 || a <= 0) {
+          result.innerHTML = 'Pick a preset or enter a size and strength.';
+          return;
+        }
+        var sd = (v / 1000) * a * 0.789 / 10;
+        var rounded = Math.round(sd * 10) / 10;
+        var hours = Math.ceil(sd);
+        result.innerHTML = '<strong>' + rounded + '</strong> standard drink' + (rounded === 1 ? '' : 's') +
+          ' (' + Math.round(sd * 100) / 10 + ' g of alcohol) — roughly ' + hours + ' hour' + (hours === 1 ? '' : 's') + ' for your body to process.';
+      }
+
+      vol.addEventListener('input', calc);
+      abv.addEventListener('input', calc);
+
+      document.querySelectorAll('.preset').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          vol.value = btn.dataset.vol;
+          abv.value = btn.dataset.abv;
+          calc();
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>
