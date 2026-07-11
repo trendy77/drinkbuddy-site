@@ -10,3 +10,4 @@ Tracks published SEO articles so topics aren't repeated. Each article lives at `
 | 2026-07-09 | alcohol-and-sleep | alcohol and sleep | Health: how drinking suppresses REM, the 3am rebound, sleeping better |
 | 2026-07-10 | legal-bac-limit-us | legal BAC limit US | Geography: US drink-driving limits, Utah 0.05, commercial/under-21, per se vs impairment |
 | 2026-07-11 | standard-drinks-in-cocktails | how many standard drinks in a cocktail | Practical: cocktail standard-drink table, x0.789 formula, ingredient calculator |
+| 2026-07-12 | uk-alcohol-units-explained | alcohol units UK | Geography: UK unit system (10ml/8g), formula + calculator, 14-units CMO guideline, E&W 80mg vs Scotland 50mg drink-drive limits |
