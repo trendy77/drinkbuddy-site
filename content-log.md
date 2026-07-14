@@ -13,3 +13,4 @@ Tracks published SEO articles so topics aren't repeated. Each article lives at `
 | 2026-07-12 | uk-alcohol-units-explained | alcohol units UK | Geography: UK unit system (10ml/8g), formula + calculator, 14-units CMO guideline, E&W 80mg vs Scotland 50mg drink-drive limits |
 | 2026-07-13 | how-long-does-a-hangover-last | how long does a hangover last | Health: hangover science — peaks at BAC zero, up to 24h, acetaldehyde/inflammation/congeners, myth-busting cures (NIAAA, healthdirect, TGA, NHMRC) |
 | 2026-07-14 | australian-alcohol-guidelines | australian alcohol guidelines | Health: NHMRC 10/week + 4/day limits, standard-drink table, 1-in-100 risk logic, WHO no-safe-level, UK/Canada comparison |
+| 2026-07-15 | how-to-pace-drinks-at-a-wedding | how to pace yourself drinking at a wedding | Occasions: 9-hour wedding day maths, champagne/top-up traps, pacing plan, toast etiquette, wedding-party tips, morning-after driving |
