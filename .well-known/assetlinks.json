@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "com.drinkbuddy.tracker",
       "sha256_cert_fingerprints": [
-        "CB:2D:45:D4:71:D5:53:C8:A6:C1:2F:92:36:97:28:65:3E:CC:ED:E6:B4:46:63:9B:49:54:9C:6F:D0:C1:50:7C"
+        "CB:2D:45:D4:71:D5:53:C8:A6:C1:2F:92:36:97:28:65:3E:CC:ED:E6:B4:46:63:9B:49:54:9C:6F:D0:C1:50:7C",
+        "92:CA:A8:9C:69:10:84:A2:93:ED:C3:29:9D:7B:6F:44:90:EB:84:87:AF:9C:66:F8:08:17:D2:F3:9B:67:FE:B2"
       ]
     }
   }
