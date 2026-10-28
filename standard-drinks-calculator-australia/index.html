@@ -110,6 +110,14 @@
     footer a { color: var(--muted); text-decoration: none; }
     footer a:hover { color: var(--text); }
     @media (max-width: 600px) { nav { padding: 16px 20px; } footer { padding: 24px 20px; flex-direction: column; text-align: center; } }
+    .byline { font-size: 0.85rem; color: var(--muted); margin: -4px 0 24px; }
+    .byline a { color: var(--muted); }
+    .sources { margin-top: 48px; padding-top: 8px; border-top: 1px solid var(--border); }
+    .sources p, .sources li { font-size: 0.9rem; color: var(--muted); }
+    .related h3 { font-size: 0.95rem; margin: 24px 0 8px; color: var(--muted); }
+    .db-figure { margin: 28px 0; } .db-figure svg { width: 100%; height: auto; display: block; } .db-figure figcaption { font-size: 0.8rem; color: var(--muted); margin-top: 8px; }
+      /* chart-mobile-fix */ @media (max-width: 600px) { .db-figure { overflow-x: auto; } .db-figure svg { min-width: 600px; } }
+    /* table-scroll-fix */ @media (max-width: 600px) { article table { display: block; overflow-x: auto; } }
   </style>
 </head>
 
@@ -121,9 +129,10 @@
   </nav>
 
   <article>
-    <div class="breadcrumb"><a href="/">Home</a> › Guides › Standard drinks calculator (Australia)</div>
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/guides/#standard-drinks">Guides</a> › Standard drinks calculator (Australia)</div>
 
     <h1>Standard drinks calculator (Australia)</h1>
+    <p class="byline">By <a href="/about/#editorial">Trendy Publishing editorial team</a> · Published <time datetime="2026-07-09">9 July 2026</time> · <a href="#sources">Sources</a></p>
     <p class="lead">One Australian standard drink = <strong>10 grams of pure alcohol</strong>. Enter any drink below to see exactly how many standard drinks you're really holding.</p>
 
     <div class="calc">
@@ -168,6 +177,10 @@
         <tr><td>Bottle of wine</td><td>750 mL</td><td>13%</td><td>7.7</td></tr>
       </tbody>
     </table>
+    <figure class="db-figure" data-original="1">
+      <svg viewBox="0 0 720 438" role="img" aria-label="Bar chart: volume of drink containing one standard drink. Mid-strength beer 3.5% 362 mL, full-strength beer 4.8% 264 mL, premix 5% 253 mL, craft IPA 8% 158 mL, sparkling 12% 106 mL, wine 13% 98 mL, spirits 40% 32 mL." xmlns="http://www.w3.org/2000/svg"><title>How much drink is one standard drink?</title><rect x="0.5" y="0.5" width="719" height="437" rx="12" style="fill:var(--surface);stroke:var(--border)"/><text x="20" y="36" font-size="20" font-weight="700" style="fill:var(--text)">How much drink is one standard drink?</text><line x1="280.0" y1="60" x2="280.0" y2="378" style="stroke:var(--border)" stroke-width="1"/><text x="280.0" y="400" font-size="15" text-anchor="middle" style="fill:var(--muted)">0</text><line x1="360.0" y1="60" x2="360.0" y2="378" style="stroke:var(--border)" stroke-width="1"/><text x="360.0" y="400" font-size="15" text-anchor="middle" style="fill:var(--muted)">100</text><line x1="440.0" y1="60" x2="440.0" y2="378" style="stroke:var(--border)" stroke-width="1"/><text x="440.0" y="400" font-size="15" text-anchor="middle" style="fill:var(--muted)">200</text><line x1="520.0" y1="60" x2="520.0" y2="378" style="stroke:var(--border)" stroke-width="1"/><text x="520.0" y="400" font-size="15" text-anchor="middle" style="fill:var(--muted)">300</text><line x1="600.0" y1="60" x2="600.0" y2="378" style="stroke:var(--border)" stroke-width="1"/><text x="600.0" y="400" font-size="15" text-anchor="middle" style="fill:var(--muted)">400</text><text x="440.0" y="424" font-size="15" text-anchor="middle" style="fill:var(--muted)">Millilitres that contain 10 g of alcohol</text><text x="20" y="97" font-size="18" style="fill:var(--text)">Mid-strength beer 3.5%</text><rect x="280.0" y="78" width="289.7" height="26" rx="3" style="fill:var(--accent)"/><text x="577.7" y="97" font-size="16" font-weight="600" style="fill:var(--text);paint-order:stroke;stroke:var(--surface);stroke-width:5px">362 mL</text><text x="20" y="141" font-size="18" style="fill:var(--text)">Full-strength beer 4.8%</text><rect x="280.0" y="122" width="211.2" height="26" rx="3" style="fill:var(--accent)"/><text x="499.2" y="141" font-size="16" font-weight="600" style="fill:var(--text);paint-order:stroke;stroke:var(--surface);stroke-width:5px">264 mL</text><text x="20" y="185" font-size="18" style="fill:var(--text)">Premix / RTD 5%</text><rect x="280.0" y="166" width="202.8" height="26" rx="3" style="fill:var(--accent)"/><text x="490.8" y="185" font-size="16" font-weight="600" style="fill:var(--text);paint-order:stroke;stroke:var(--surface);stroke-width:5px">253 mL</text><text x="20" y="229" font-size="18" style="fill:var(--text)">Craft IPA 8%</text><rect x="280.0" y="210" width="126.7" height="26" rx="3" style="fill:var(--accent)"/><text x="414.7" y="229" font-size="16" font-weight="600" style="fill:var(--text);paint-order:stroke;stroke:var(--surface);stroke-width:5px">158 mL</text><text x="20" y="273" font-size="18" style="fill:var(--text)">Sparkling wine 12%</text><rect x="280.0" y="254" width="84.5" height="26" rx="3" style="fill:var(--accent)"/><text x="372.5" y="273" font-size="16" font-weight="600" style="fill:var(--text);paint-order:stroke;stroke:var(--surface);stroke-width:5px">106 mL</text><text x="20" y="317" font-size="18" style="fill:var(--text)">Wine 13%</text><rect x="280.0" y="298" width="78.0" height="26" rx="3" style="fill:var(--accent)"/><text x="366.0" y="317" font-size="16" font-weight="600" style="fill:var(--text);paint-order:stroke;stroke:var(--surface);stroke-width:5px">97 mL</text><text x="20" y="361" font-size="18" style="fill:var(--text)">Spirits 40%</text><rect x="280.0" y="342" width="25.3" height="26" rx="3" style="fill:var(--accent)"/><text x="313.3" y="361" font-size="16" font-weight="600" style="fill:var(--text);paint-order:stroke;stroke:var(--surface);stroke-width:5px">32 mL</text></svg>
+      <figcaption>Drink Buddy calculation based on the Australian Government standard drinks guide (1 standard drink = 10 g of alcohol) and the density of ethanol (0.789 g/mL): mL = 10 ÷ (0.789 × ABV%) × 100. Strengths are the typical values used in the table above; check the label on your drink.</figcaption>
+    </figure>
 
     <div class="callout">
       <strong>The Australian guidelines:</strong> to reduce the risk of harm from alcohol, the NHMRC recommends healthy adults have <strong>no more than 10 standard drinks a week</strong> and <strong>no more than 4 on any one day</strong>. The less you drink, the lower your risk.
@@ -186,6 +199,15 @@
     <p>Australian guidelines recommend no more than 10 per week and no more than 4 on any one day for healthy adults. No level of drinking is completely risk-free.</p>
     <h3>Is a glass of wine one standard drink?</h3>
     <p>Rarely. Only a 100 mL pour of 13% wine equals one standard drink — most pours are 1.5 or more.</p>
+    <section id="sources" class="sources">
+      <h2>Sources</h2>
+      <p>Written by the Trendy Publishing editorial team. This is general information only, not medical or legal advice — check with your doctor, pharmacist or the relevant authority for your situation.</p>
+      <ol>
+        <li><a href="https://www.health.gov.au/topics/alcohol/about-alcohol/standard-drinks-guide" target="_blank" rel="noopener noreferrer">Australian Government Department of Health</a> — Standard drinks guide</li>
+        <li><a href="https://www.nhmrc.gov.au/health-advice/alcohol" target="_blank" rel="noopener noreferrer">NHMRC</a> — Australian guidelines to reduce health risks from drinking alcohol</li>
+        <li><a href="https://www.foodstandards.gov.au/consumer/labelling/Labelling-of-alcoholic-beverages" target="_blank" rel="noopener noreferrer">Food Standards Australia New Zealand</a> — Labelling of alcoholic beverages</li>
+      </ol>
+    </section>
   </article>
 
   <div class="cta-banner">
@@ -194,10 +216,20 @@
     <a class="btn-primary" href="https://play.google.com/store/apps/details?id=com.drinkbuddy.tracker" rel="noopener">▶ Get Drink Buddy Free</a>
   </div>
 
-  <div class="related">
+  <div class="related" data-cluster="standard-drinks">
     <h2>Related guides</h2>
     <a href="/how-long-until-bac-zero/">How long until my BAC is zero? Sober-up time explained</a>
     <a href="/dry-july-drink-tracking/">How to track your drinks during Dry July</a>
+    <h3>More on standard drinks &amp; guidelines</h3>
+    <a href="/australian-alcohol-guidelines/">Australian alcohol guidelines: how much is actually &#x27;safe&#x27;?</a>
+    <a href="/standard-drinks-in-beer/">How many standard drinks are in a beer?</a>
+    <a href="/standard-drinks-in-a-bottle-of-wine/">How many standard drinks are in a bottle of wine?</a>
+    <a href="/standard-drinks-in-cask-wine/">How many standard drinks are in a cask of wine?</a>
+    <a href="/standard-drinks-in-champagne/">How many standard drinks are in a glass of champagne?</a>
+    <a href="/standard-drinks-in-spirits/">How many standard drinks are in a shot of spirits?</a>
+    <a href="/standard-drinks-in-cocktails/">How many standard drinks in a cocktail?</a>
+    <a href="/oktoberfest-standard-drinks/">Oktoberfest standard drinks: how many are really in a stein?</a>
+    <a href="/guides/#standard-drinks">All standard drinks &amp; guidelines guides →</a>
   </div>
 
   <footer>
